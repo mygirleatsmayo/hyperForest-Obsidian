@@ -1,6 +1,6 @@
-# HyperForest Snippets
+# hyperForest Snippets
 
-Optional CSS snippets to enhance your HyperForest theme experience.
+Optional CSS snippets to enhance your hyperForest theme experience.
 
 ## Installation
 

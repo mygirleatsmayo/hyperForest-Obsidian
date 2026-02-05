@@ -16,7 +16,7 @@ A dark Obsidian theme featuring vibrant pinks, greens, and purples on a deep for
 
 ### Community Themes (Coming Soon)
 1. Open Obsidian **Settings → Appearance → Themes**
-2. Search for "HyperForest"
+2. Search for "hyperForest"
 3. Click **Install and use**
 
 ### Manual Installation
@@ -24,11 +24,11 @@ A dark Obsidian theme featuring vibrant pinks, greens, and purples on a deep for
 2. Create folder: `YourVault/.obsidian/themes/hyperForest/`
 3. Place both files in the folder
 4. Go to **Settings → Appearance → Themes**
-5. Select "HyperForest"
+5. Select "hyperForest"
 
 ## Custom Checkboxes
 
-HyperForest includes 21 custom checkbox types. Enable them in **Settings → Style Settings → HyperForest → Custom Checkboxes**.
+hyperForest includes 21 custom checkbox types. Enable them in **Settings → Style Settings → hyperForest → Custom Checkboxes**.
 
 | Syntax | Icon | Color | Use Case |
 |--------|------|-------|----------|
