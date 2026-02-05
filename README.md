@@ -1,4 +1,4 @@
-# HyperForest
+# hyperForest
 
 A dark Obsidian theme featuring vibrant pinks, greens, and purples on a deep forest background.
 
