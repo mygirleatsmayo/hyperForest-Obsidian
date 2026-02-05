@@ -1,6 +1,6 @@
 # HyperForest
 
-A dark Obsidian theme inspired by the VS Code theme "Forest Pink" — featuring vibrant pinks, greens, and purples on a deep forest background.
+A dark Obsidian theme featuring vibrant pinks, greens, and purples on a deep forest background.
 
 ![Theme Preview](https://img.shields.io/badge/obsidian-theme-8b5cf6)
 
@@ -79,7 +79,6 @@ Check the `snippets/` folder for optional enhancements.
 
 ## Credits
 
-- Inspired by [Forest Pink VS Code theme](https://marketplace.visualstudio.com/items?itemName=sainnhe.forest-pink)
 - Custom checkbox icons from [Font Awesome](https://fontawesome.com/)
 - Checkbox implementation inspired by [AnuPpuccin theme](https://github.com/AnubisNekhet/AnuPpuccin)
 
