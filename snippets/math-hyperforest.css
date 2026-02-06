@@ -1,0 +1,29 @@
+/**
+ * MathJax Theming - HyperForest
+ * Two colors only: bold (pink) base, italic (teal) text
+ */
+
+/* Everything - same as theme bold */
+mjx-container {
+    color: #FF3DB8 !important;
+}
+
+/* Text in math only - same as theme italics */
+mjx-container mjx-mtext,
+.math mjx-mtext,
+.math-block mjx-mtext,
+.math-inline mjx-mtext {
+    color: #1ABC9C !important;
+}
+
+/* Block math - larger size */
+.math-block mjx-container,
+mjx-container[display="true"] {
+    font-size: 115% !important;
+}
+
+/* Inline math - slightly larger */
+.math-inline mjx-container,
+mjx-container:not([display="true"]) {
+    font-size: 110% !important;
+}
