@@ -54,9 +54,10 @@ settings:
     --text-highlight-bg: #ff149455;
     /* editor.findMatchBackground */
 
-    /* Fonts */
-    --font-text: "American Typewriter", serif;
-    --font-monospace: ui-monospace, "SF Mono", "Menlo", "Monaco", monospace;
+    /* Fonts — DISABLED: Let Obsidian Appearance settings control fonts.
+       Uncomment to override with theme defaults. */
+    /* --font-text: "American Typewriter", serif; */
+    /* --font-monospace: ui-monospace, "SF Mono", "Menlo", "Monaco", monospace; */
 
     /* UI Interactive */
     --interactive-normal: #1a3d1a;
@@ -141,51 +142,57 @@ settings:
     background-color: #1a3d1a44;
 }
 
-/* Base Text (Live Preview + Reading) */
+/* Base Text (Live Preview + Reading) — Line spacing parity */
 .markdown-preview-view,
 .markdown-source-view,
 .cm-editor {
     font-family: var(--font-text);
+    line-height: 1.6;
 }
 
 /* Code Blocks - handled by Obsidian's built-in code styling */
 
-/* Headings */
-/* Headings */
-.cm-header-1,
+/* Headings — Live Preview (HyperMD) + Reading View parity */
+.HyperMD-header-1,
 .markdown-preview-view h1 {
     color: var(--h1-color);
     font-weight: bold;
+    font-size: 2.2em;
 }
 
-.cm-header-2,
+.HyperMD-header-2,
 .markdown-preview-view h2 {
     color: var(--h2-color);
     font-weight: bold;
+    font-size: 1.8em;
 }
 
-.cm-header-3,
+.HyperMD-header-3,
 .markdown-preview-view h3 {
     color: var(--h3-color);
     font-weight: bold;
+    font-size: 1.5em;
 }
 
-.cm-header-4,
+.HyperMD-header-4,
 .markdown-preview-view h4 {
     color: var(--h4-color);
     font-weight: bold;
+    font-size: 1.25em;
 }
 
-.cm-header-5,
+.HyperMD-header-5,
 .markdown-preview-view h5 {
     color: var(--h5-color);
     font-weight: bold;
+    font-size: 1.1em;
 }
 
-.cm-header-6,
+.HyperMD-header-6,
 .markdown-preview-view h6 {
     color: var(--h6-color);
     font-weight: bold;
+    font-size: 1em;
 }
 
 /* Links */
@@ -200,16 +207,26 @@ settings:
     color: var(--text-faint);
 }
 
-/* Bold/Italic */
-.cm-strong {
-    color: #ff3db8;
-    /* markup.bold */
+/* Bold/Italic — Global styling for all contexts */
+/* Live Preview (all contexts including tables) */
+.markdown-source-view strong,
+.markdown-source-view .cm-strong,
+.markdown-source-view [class*="table"] strong,
+.markdown-source-view [class*="table"] .cm-strong,
+/* Reading View */
+.markdown-preview-view strong,
+.markdown-preview-view table strong {
+    color: #ff3db8 !important;
     font-weight: bold;
 }
 
-.cm-em {
-    color: #1abc9c;
-    /* markup.italic */
+.markdown-source-view em,
+.markdown-source-view .cm-em,
+.markdown-source-view [class*="table"] em,
+.markdown-source-view [class*="table"] .cm-em,
+.markdown-preview-view em,
+.markdown-preview-view table em {
+    color: #1abc9c !important;
     font-style: italic;
 }
 
