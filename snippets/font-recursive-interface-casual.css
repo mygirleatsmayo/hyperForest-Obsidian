@@ -1,0 +1,9 @@
+/*
+  Recursive Interface: Casual (softer/handwritten)
+*/
+
+body {
+    font-variation-settings:
+        "MONO" 0,
+        "CASL" 1;
+}

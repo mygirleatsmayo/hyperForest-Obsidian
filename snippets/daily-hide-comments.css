@@ -1,0 +1,10 @@
+/* 
+  Replicates Anuppuccin's Hide Comments feature for specific notes.
+  Usage: Add 'cssclasses: daily-hide-comments' to the note's frontmatter.
+*/
+
+/* Live Preview: Hide comments when not editing the active line */
+/* Excludes code blocks (.HyperMD-codeblock) so // and /* comments remain visible */
+.daily-hide-comments .cm-line:not(.cm-active):not(.HyperMD-codeblock) .cm-comment {
+  display: none;
+}

@@ -1,0 +1,16 @@
+/*
+  Forces Recursive to Mono Casual in code blocks only.
+  Text body uses whatever you set in Appearance settings.
+*/
+
+/* Code blocks and inline code */
+.markdown-preview-view code,
+.markdown-preview-view pre,
+.markdown-source-view .cm-inline-code,
+.HyperMD-codeblock {
+    font-variation-settings:
+        "MONO" 1,
+        /* monospace */
+        "CASL" 1;
+    /* casual (softer curves) */
+}

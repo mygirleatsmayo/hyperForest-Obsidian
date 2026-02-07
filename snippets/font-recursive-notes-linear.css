@@ -1,0 +1,11 @@
+/*
+  Recursive Notes: Linear (clean/technical)
+*/
+
+.markdown-preview-view,
+.markdown-source-view,
+.cm-editor {
+    font-variation-settings:
+        "MONO" 0,
+        "CASL" 0 !important;
+}

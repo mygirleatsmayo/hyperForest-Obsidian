@@ -1,0 +1,11 @@
+/*
+  Recursive Notes: Casual (softer/handwritten)
+*/
+
+.markdown-preview-view,
+.markdown-source-view,
+.cm-editor {
+    font-variation-settings:
+        "MONO" 0,
+        "CASL" 1 !important;
+}
