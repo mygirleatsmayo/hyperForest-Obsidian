@@ -17,8 +17,7 @@ settings:
 */
 
 /**
- * Forest Pink - Obsidian Theme
- * Based on the VS Code theme Forest Pink
+ * forestPink - Obsidian Theme
  */
 
 .theme-dark {
@@ -111,11 +110,12 @@ settings:
 
     /* Markdown Specific Mappings */
     --h1-color: #ff1493;
-    --h2-color: #2ecc71;
-    --h3-color: #9b59b6;
-    --h4-color: #ff1493;
+    --h2-color: #4fc882; /* was #2ecc71 */
+    /* --h3-color-purple: #9b59b6; — reserved for future use */
+    --h3-color: #ff1493;
+    --h4-color: #4fc882;
     --h5-color: #ff1493;
-    --h6-color: #ff1493;
+    --h6-color: #4fc882;
 
     /* Graph View */
     --graph-node: #ff69b4;
@@ -216,7 +216,7 @@ settings:
 /* Reading View */
 .markdown-preview-view strong,
 .markdown-preview-view table strong {
-    color: #ff3db8 !important;
+    color: #FF64B6 !important; /* was #ff3db8 */
     font-weight: bold;
 }
 
@@ -657,3 +657,4 @@ settings:
     background-color: var(--hf-muted);
     left: 0px;
 }
+

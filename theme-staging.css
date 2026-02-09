@@ -1,0 +1,94 @@
+/* HyperForest Theme Staging — Color testing only (not loaded by Obsidian)
+   RULE: Always update this file whenever theme.css colors change. */
+
+:root {
+    /* =============================================================
+       WORKING AREA — test candidates and active comparisons
+       (may duplicate colors from the full palette below)
+       ============================================================= */
+
+    /* --- Context: nearby text colors --- */
+    --ctx-body: #ffb3d9; /* body text */
+    --ctx-bold: #FF64B6; /* bold */
+    --ctx-italic: #1abc9c; /* italic */
+    --ctx-h1: #ff1493; /* H1 */
+    --ctx-h3: #ff1493; /* H3 (was #9b59b6) */
+    --ctx-h4: #4fc882; /* H4 */
+
+    /* --- Bold: current vs candidates --- */
+    --bold-current: #ff3db8; /* original — magenta-pink, G:61 B:184 */
+    --bold-rose-coral: #FF3E7A; /* less blue, coral direction, G:62 B:122 */
+    --bold-punchy-coral: #FF2D6E; /* even warmer/redder coral, G:45 B:110 */
+    --bold-hot-magenta: #FF22A0; /* green pulled to 34, tight H1 variant */
+    --bold-vivid-magenta: #FF28AC; /* green at 40, slightly brighter */
+    --bold-midpoint: #FF64B6; /* exact midpoint of body and H1, G:100 B:182 — ACTIVE */
+
+    /* =============================================================
+       FULL THEME PALETTE — all colors from theme.css
+       ============================================================= */
+
+    /* --- Backgrounds --- */
+    --bg-primary: #0d1f0d;
+    --bg-primary-alt: #0a160a;
+    --bg-secondary: #0a160a;
+    --bg-secondary-alt: #0a160a;
+    --bg-border: #1a3d1a;
+
+    /* --- Text --- */
+    --text-normal: #ffb3d9;
+    --text-muted: #ffb3d9;
+    --text-faint: #3e5f3e;
+    --text-accent: #ff1493;
+    --text-accent-hover: #ff3db8;
+    --text-selection: #ff149433;
+    --text-highlight: #ff149455;
+
+    /* --- UI Interactive --- */
+    --ui-normal: #1a3d1a;
+    --ui-hover: #ff149433;
+    --ui-accent: #ff1493;
+    --ui-accent-hover: #ff3db8;
+
+    /* --- Syntax Highlighting --- */
+    --syn-comment: #7c9c7c;
+    --syn-string: #2ecc71;
+    --syn-value: #f1c40f;
+    --syn-keyword: #ff1493;
+    --syn-function: #9b59b6;
+    --syn-type: #1abc9c;
+    --syn-variable: #ffb3d9;
+    --syn-tag: #ff1493;
+    --syn-attribute: #f1c40f;
+
+    /* --- Headings --- */
+    --h1: #ff1493;
+    --h2: #4fc882; /* was #2ecc71 */
+    /* --h3-purple: #9b59b6; — reserved for future use */
+    --h3: #ff1493;
+    --h4: #4fc882;
+    --h5: #ff1493;
+    --h6: #4fc882;
+
+    /* --- Graph View --- */
+    --graph-node: #ff69b4;
+    --graph-line: #1a3d1a;
+
+    /* --- HyperForest Custom (checkboxes) --- */
+    --hf-green: #2ecc71;
+    --hf-yellow: #f1c40f;
+    --hf-pink: #ff1493;
+    --hf-hotpink: #ff69b4;
+    --hf-purple: #9b59b6;
+    --hf-teal: #1abc9c;
+    --hf-muted: #98e098;
+
+    /* --- Hardcoded in rules (not variables) --- */
+    --rule-active-line: #1a3d1a44;
+    --rule-bold-accent: #FF64B6;
+    --rule-italic-accent: #1abc9c;
+    --rule-hr-color: #ff69b4;
+    --rule-table-header-bg: #481a2b;
+    --rule-table-header-text: #ffffff;
+    --rule-tag-bg: #ff149333;
+    --rule-tag-bg-hover: #ff149366;
+}

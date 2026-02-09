@@ -1,29 +1,39 @@
 /**
  * MathJax Theming - HyperForest
- * Two colors only: bold (pink) base, italic (teal) text
+ * Bold (pink) base for everything including text, H1 (deep pink) for operators
  */
 
-/* Everything - same as theme bold */
+/* Everything including text - same as theme bold */
 mjx-container {
-    color: #FF3DB8 !important;
+    color: #FF64B6 !important; /* was #FF3DB8 */
 }
 
-/* Text in math only - same as theme italics */
-mjx-container mjx-mtext,
-.math mjx-mtext,
-.math-block mjx-mtext,
-.math-inline mjx-mtext {
-    color: #1ABC9C !important;
+/* Operators - same as H1 */
+mjx-container mjx-mo,
+.math mjx-mo,
+.math-block mjx-mo,
+.math-inline mjx-mo {
+    color: #ff1493 !important;
 }
 
 /* Block math - larger size */
 .math-block mjx-container,
 mjx-container[display="true"] {
-    font-size: 115% !important;
+    font-size: 140% !important;
+}
+
+/* Fraction bar - same as H1 */
+mjx-frac mjx-line {
+    border-top-color: #ff1493 !important;
+}
+
+/* Square root vinculum - same as H1 */
+mjx-sqrt mjx-box {
+    border-top-color: #ff1493 !important;
 }
 
 /* Inline math - slightly larger */
 .math-inline mjx-container,
 mjx-container:not([display="true"]) {
-    font-size: 110% !important;
+    font-size: 115% !important;
 }
